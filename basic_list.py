@@ -177,6 +177,8 @@ def queue_ex():
     print(queue.pop(0))
     print(queue.pop(0))
 
+    
+
 
 if __name__ == "__main__":
     #define_list()
