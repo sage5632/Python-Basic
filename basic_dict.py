@@ -124,13 +124,13 @@ def loop():
     # 기본적인 루프 -> 기본은 key의 목록
     for key in phones:
         print(key + ":" + phones.get(key))
-
+    print()
     # 사전으로 부터 키의 목록을 리스트로 받아온 후 루프
     for key in phones.keys():
         print(key + ":" + phones.get(key))
     print()
     # 키와 값 쌍튜플을 받아와서 언패킹
-    for item in phones.items():
+    for key, value in phones.items():
         print(key + ":" + value)
 
 
