@@ -12,9 +12,9 @@ def define_str():   # 문자열의 정의
     # 여러 줄 문자열의 정의
     # 쌍따옴표 세 개("""), 홑따옴표 세 개(''')
     s4 = """Life is too short, you need python.
-파이썬은 데이터 처리가 중요한 시대에서
-가장 널리 사용되는 언어이다.
-"""
+    파이썬은 데이터 처리가 중요한 시대에서
+    가장 널리 사용되는 언어이다.
+    """
     print(s4)
 
     # 여러 줄 문자열은 한 줄 주석만 있는 파이썬에서
@@ -118,12 +118,12 @@ def search_methods():
 
 def modify_reaplce_methods():
     """
-    문자열 수정, 치환 관련 메섣들
+    문자열 수정, 치환 관련 메서드
     """
     s = "          Alice and the Heart Queen           "
     print("STRIP:[" + s.strip() + "]", sep="") # 앞 뒤의 공백문자 제거
     print("LSTRIP:[", s.lstrip(), "]", sep="") # 왼쪽(앞)의 공백문자 제거
-    print("RSTRIP:[", s.rstrip(), "]", sep="")  # 왼쪽(앞)의 공백문자 제거
+    print("RSTRIP:[", s.rstrip(), "]", sep="")  # 오른쪽(뒤)의 공백문자 제거
 
     # 기본적으로 Strip은 공백문자를 제거 -> 임의의 문자열을 제거 가능
     s = "-------------Alice and the Heart Queen---------------"
@@ -149,9 +149,9 @@ def split_join_methods():
     print(items)
 
     lines = """
-Java Programming
-Python Programming
-Oracle Database
+    Java Programming
+    Python Programming
+    Oracle Database
     """
 
     print(lines.split())
