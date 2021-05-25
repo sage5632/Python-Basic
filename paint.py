@@ -55,7 +55,7 @@ def arith_oper_overriding():
     p1 = Point(10, 20)
     p2 = Point(30, 40)
 
-    print(dir(object))
+    # print(dir(object))
     # Point + Point
     print(p1 + p2)
 
@@ -65,7 +65,7 @@ def arith_oper_overriding():
 
     # int + Point
     p1 = Point(10, 20)
-    print(10 + p1)
+    print("int + Point:", 10 + p1)
 
     # 연습문제
     p1 = Point(10, 20)
@@ -74,6 +74,11 @@ def arith_oper_overriding():
 
     p1 = Point(10, 20)
     print(p1 - 10)
+
+    p1 = Point(10, 20)
+    p2 = Point(10, 20)
+
+    print("p1 == p2?", p1 == p2)
 
 
 if __name__ == "__main__":
