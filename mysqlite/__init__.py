@@ -4,5 +4,5 @@ from .database import *
 # 없어도 패키지로 인식
 
 # from 패키지 import * : 내부에 있는 모든 객체를 import
-__all__ = ["Database"] # 명시된 심볼만 export된다
+__all__ = ["Database"] # 명시된 심볼만 export 된다
 # __all__ = [] # *로 임포트시 아무 것도 export 안함
