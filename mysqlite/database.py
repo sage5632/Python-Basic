@@ -46,4 +46,5 @@ class Database:
             self.cursor.execute(sql, parameter)
         else:
             self.cursor.execute(sql)
-        # 영향 받은
+        # 영향 받은 레코드 개수 반환
+        return self.cursor.rowcount
